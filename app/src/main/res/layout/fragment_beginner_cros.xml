@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeginnerCrosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/CFH2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CROSS" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/paddingHalaman">
+
+                <ImageView
+                    android:id="@+id/imageView61"
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/butek"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/c_1" />
+
+                <ImageView
+                    android:id="@+id/imageView62"
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/butek"
+                    android:src="@drawable/c_2" />
+
+                <ImageView
+                    android:id="@+id/imageView63"
+                    android:layout_width="320dp"
+                    android:layout_height="320dp"
+                    android:layout_margin="3dp"
+                    android:background="@color/butek"
+                    android:src="@drawable/c_3" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

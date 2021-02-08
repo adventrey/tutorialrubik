@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingHalaman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/CFH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubik's Cube" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ico" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/CFParagraf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubik is a game that honed the ability to imagine. There are six colors (red, orange, blue, green, yellow, white) and six sides. This game was created by Erno Rubik. Erno Rubik (born in Budapest, Hungary July 13, 1944, age 67) is an inventor, sculptor and professor of architecture from Hungary. He is widely recognized as the inventor of mechanical puzzle toys such as Rubik's cube, Rubik's Magic, Rubik Snake and Rubik 360. More games use logic. this game requires patience and up in modern times rubik remains one of the hobby of the game in the fun. " />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeginnerWhiteCornersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView28"
+            style="@style/CFH2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White Corners" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/paddingHalaman">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView58"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_1" />
+
+                        <ImageView
+                            android:id="@+id/imageView59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_3" />
+
+                        <ImageView
+                            android:id="@+id/imageView64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_4" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_5" />
+
+                        <ImageView
+                            android:id="@+id/imageView66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_6" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView67"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_7" />
+
+                        <ImageView
+                            android:id="@+id/imageView68"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_margin="1dp"
+                            android:background="@color/butek"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/d_8" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
